@@ -1,0 +1,55 @@
+*.slo
+*.lo
+*.o
+*.*swp
+*.zip
+*.iml
+
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# include directory (release)
+include/*
+
+# documentation
+*/docs/html/*
+docs/*
+doxygen.log
+
+# non-project directories
+backup/*
+*/.backup
+extern_libs/*
+IronSource/MediationDemoApp/*
+
+bin/*
+obj/*
+gen/*
+*/objs/*
+*/ext_*/*
+*/raven_core/*
+jni/raven/*
+*/*/*/obj/local/*
+*/*/*/.gradle/*
+*/.gradle/*
+.gradle/*
+*/include/*
+*/libs/*
+back/*
+*.bak
+debug.err
+*Test
+base/CrowBaseTes*
+base/valgrind.txt
+.idea/workspace.xml
+*.autosave
+
+
